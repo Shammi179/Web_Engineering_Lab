@@ -1,0 +1,89 @@
+.wrapper{
+    height: 1200px;
+    width: 100%;
+    background-color: gray;
+}
+
+.main{
+    height: 600px;
+    width: 100%;
+    background-color: blue;
+}
+
+.main .One{
+    height: 300px;
+    width: 25%;
+    background-color: yellowgreen;
+    float: left;
+    background-image: url(../image/1.jpg);
+    background-size: cover;
+    transform: scale(1);
+    transition: all 2s;
+}
+
+.main .One:hover{
+    /* transform: rotate(180deg) scale(1.5); */
+    transform: scale(2);
+}
+
+.main .Two{
+    height: 300px;
+    width: 25%;
+    background-color: cyan;
+    float: left;
+}
+
+.main .Three{
+    height: 300px;
+    width: 25%;
+    background-color: darkorange;
+    float: left;
+    background-image: url(../image/3.jpg);
+    transform: scale(1);
+    transition: all 2s;
+}
+
+
+.main .Three:hover{
+    transform: scale(2);
+}
+
+.main .Four{
+    height: 300px;
+    width: 25%;
+    background-color: darkgoldenrod;
+    float: left;
+}
+
+.main .Five{
+    height: 300px;
+    width: 25%;
+    background-color: red;
+    float: left;
+}
+
+.main .Six{
+    height: 300px;
+    width: 25%;
+    background-color: greenyellow;
+    float: left;
+}
+
+.main .Seven{
+    height: 300px;
+    width: 25%;
+    background-color: black;
+    float: left;
+}
+
+.main .Eight{
+    height: 300px;
+    width: 25%;
+    background-color: skyblue;
+    float: left;
+}
+
+.imgResponsive{
+    height: 100%;
+    width: 100%;
+}

@@ -1,0 +1,118 @@
+.wrapper{
+    width: 100%;
+    height: 1000px;
+    background-color: silver;
+}
+
+
+.menu{
+    width: 100%;
+    height: 50px;
+    background-color: yellow;
+}
+.menu ul li{
+    float: left;
+    width: 20%;
+}
+
+
+
+.imgResponsive{
+    height: 80%;
+    width: 100%;
+}
+
+.One{
+    height: 300px;
+    width: 33%;
+    float: left;
+    background-size: cover;
+    background-color: whitesmoke;
+}
+.Two{
+    height: 300px;
+    width: 33%;
+    float: left;
+    background-size: cover;
+    background-color: skyblue;
+}
+.Three{
+    height: 300px;
+    width: 33%;
+    float: left;
+    background-size: cover;
+    background-color: yellow;
+}
+
+.Five{
+    height: 300px;
+    width: 25%;
+    background-color: yellowgreen;
+    float: left;
+    background-image: url(../image/2.jpg);
+    background-size: cover;
+    transform: scale(1);
+    transition: all 2s;
+}
+
+.Five:hover{
+    transform: scale(2);
+}
+.Six{
+    height: 300px;
+    width: 25%;
+    background-color: yellowgreen;
+    float: left;
+    background-image: url(../image/3.jpg);
+    background-size: cover;
+    transform: scale(1);
+    transition: all 2s;
+}
+
+.Six:hover{
+    transform: rotate(60deg) scale(2);
+}
+
+.Seven{
+    height: 300px;
+    width: 25%;
+    background-color: yellowgreen;
+    float: left;
+    background-image: url(../image/4.jpg);
+    background-size: cover;
+    transform: scale(1);
+    transition: all 2s;
+}
+
+.Seven:hover{
+    transform: scale(2);
+}
+
+.Eight{
+    height: 300px;
+    width: 25%;
+    background-color: yellowgreen;
+    float: left;
+    background-image: url(../image/5.jpg);
+    background-size: cover;
+    transform: scale(1);
+    transition: all 2s;
+}
+
+.Eight:hover{
+    transform: rotate(20deg) scale(2);
+}
+
+.Footer{
+    width: 100%;
+    height: 50px;
+    background-color: black;
+    float: left;
+    color: white;
+    text-align: center;
+}
+
+
+
+
+
