@@ -1,0 +1,154 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    margin-top: 20px;
+}
+body{
+    background-color: #e4f1f7;
+}
+
+.grid {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+  }
+
+.col-1{width: 8.33%;}
+.col-2{width: 16.66%;}
+.col-3{width: 25%;}
+.col-4{width: 33.33%;}
+.col-5{width: 41.66%;}
+.col-6{width: 50%;}
+.col-7{width: 58.33%;}
+.col-8{width: 66.66%;}
+.col-9{width: 75%;}
+.col-10{width: 83.33%;}
+.col-11{width: 91.66%;}
+.col-12{width: 100%;}
+
+[class*='col-'] {
+    float: left;
+}
+
+.wrapper{
+    width: 100%;
+    height: auto;
+    margin: auto;
+}
+
+.header-height{height: 250px;}
+.menu-height{height: 50px;} 
+.content-height{
+    height: 170px;
+    float: left;
+    background-size: cover;
+    transform: scale(1);
+    transition: all 2s;
+} 
+.big-footer-height{height: 250px;} 
+.footer-height{height: 45px;}
+
+.col-12 h1{
+    text-align: center;
+    font-family: 'Bree Serif', serif;
+    color: #52c8cf;
+}
+
+.col-12 p{
+    text-align: center;
+    margin-left: 50px;
+    margin-right: 50px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.col-12 h4{
+    text-align: center;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+    font-weight: 1000;
+    margin-top: 10px;
+    background-color: #52c8cf;
+}
+
+.col-12 a{
+    margin-right: 120px;
+    margin-left: 120px;
+    font-size: 20px;
+    font-family: 'Bree Serif', serif;
+    color:#52c8cf;
+    text-decoration: none;
+}
+
+.follow{
+    height: 80px;
+}
+
+.col-12 h5{
+    text-align: center;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+    background-color: #52c8cf;
+}
+
+
+
+input, textarea{
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    margin: 5px 0;
+    opacity: 0.85;
+    display: inline-block;
+    font-size: 17px;
+    line-height: 20px;
+    text-decoration: none;
+  }
+  input[type=submit] {
+    background-color: #52c8cf;
+    color: white;
+    cursor: pointer;
+    font-family: 'Bree Serif', serif;
+  }
+
+  .imgResponsive{
+    height: 170px;
+    float: left;
+    background-size: cover;
+    transform: scale(1);
+    transition: all 2s;
+    margin-left: 80px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+  }
+
+  .imgResponsive:hover{
+      transform: scale(1.5);
+  }
+
+.ContactContent{
+    margin-top: 10px;
+    width: 100%;
+    margin-top: 20px;
+    font-family: 'Bree Serif', serif;
+}
+
+.contact-box h4{
+    margin-right: 70px;
+    margin-left: 45px;
+    margin-top: 17px;
+    font-size: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color:white;
+    float: left;
+}
+
+.color{
+    height: 50px;
+    background-color: #52c8cf;
+}
+.contact-form{
+    margin-left: 500px;
+}
