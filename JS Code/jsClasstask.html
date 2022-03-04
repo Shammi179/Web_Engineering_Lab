@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+</head>
+<body>
+    <table>
+        <tr>
+            <td>First Name</td>
+            <td><input type="text" id="firstName"></td>
+        </tr>
+        <tr>
+            <td>Last Name</td>
+            <td><input type="text" id="lastName"></td>
+        </tr>
+        <tr>
+            <td>Full Name</td>
+            <td><input type="text" id="fullName"></td>
+        </tr>
+
+        <tr>
+                <td><input type="submit" id="save" value="Save"></td>
+        </tr>
+    </table>
+
+        <script>
+             var saveBtn = document.getElementById('save');
+       saveBtn.onclick = function(){
+           var firstName = document.getElementById('firstName').value;
+           var lastName = document.getElementById('lastName').value;
+           var fullName = firstName +" "+lastName;
+           document.getElementById('fullName').value = fullName;
+       };
+        </script>
+    
+</body>
+</html>

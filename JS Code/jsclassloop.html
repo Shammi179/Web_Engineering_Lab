@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>loop</title>
+</head>
+<body>
+    
+    <table>
+        <tr>
+            <td>First Number</td>
+            <td><input type="number" id="firstNumber"></td>
+        </tr>
+        <tr>
+            <td>Last Number</td>
+            <td><input type="number" id="lastNumber"></td>
+        </tr>
+        <tr>
+            <td>Result</td>
+            <td><input type="text" id="result"></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td><input type="submit" id="loop" value="Execute"></td>
+        </tr>
+    
+    </table>
+    <script>
+        var ExecuteBtn = document.getElementById('loop');
+       ExecuteBtn.onclick = function(){
+        var firstNumber = Number(document.getElementById('firstNumber').value);
+        var lastNumber = Number(document.getElementById('lastNumber').value);
+        var result = ""
+        for(let i=firstNumber; i<=lastNumber; i++ ){
+            result= result+ " " + i;
+            document.getElementById('result').value = result;
+        }
+
+       };
+    </script>
+</body>
+</html>
